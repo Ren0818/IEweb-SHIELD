@@ -1,0 +1,132 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  <meta name="keywords" content=""/>
+    <meta name="description" content="shiled for your child" />
+    <meta name="robots" content="index" />
+   <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="Sergey Pozhilov (GetTemplate.com)">
+    <title>Shield</title>
+
+          <asp:ContentPlaceHolder id="title" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            <link rel="shortcut icon" href="assets/images/gt_favicon.png">
+            <link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+            <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+            <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+            <!-- Custom styles for our template -->
+            <link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen">
+            <link rel="stylesheet" href="assets/css/main.css">
+            <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media
+            queries -->
+            <!--[if lt IE 9]>
+                <script src="assets/js/html5shiv.js"></script>
+                <script src="assets/js/respond.min.js"></script>
+            <![endif]-->
+ 
+</head>
+<body>
+  
+    <form id="form1" runat="server">
+           
+    <div>
+        <asp:ContentPlaceHolder id="ContentBody" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+            <div>
+   
+    </div>
+    <footer id="footer" class="top-space">
+            <div class="footer1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 widget">
+                            <h3 class="widget-title">Contact</h3>
+                            <div class="widget-body">
+                         
+                                   
+                                    <br>
+                                    <a href="mailto:#">cche220@student.monash.edu</a>
+                                    <br>
+                                    <br>900 Dandenong Road, Caulfield East VIC 3145</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 widget">
+                            <h3 class="widget-title">Sayings</h3>
+                            <div class="widget-body">
+                               
+                                        "It is easier to build strong children than to repair broken men."<br>
+                                        <br>
+                                        <strong><i>&ndash;&nbsp;&nbsp;Frederick Douglass</i></strong>
+                               
+                            </div>
+                        </div>
+                        <div class="col-md-6 widget">
+                            <h3 class="widget-title">Helpful links</h3>
+                            <div class="widget-body">
+                                <p>    
+                                <p><strong><a href="http://www.humanservices.gov.au/customer/dhs/child-support">Children's support</a> </strong></p>
+                                <p>&nbsp;</p>
+                                <p><a href="http://www.abs.gov.au/websitedbs/c311215.nsf/web/States+and+Territories+-+Victoria+-+Find+Victorian+Statistics">australian bureau of stastic</a></p>
+                                <p>&nbsp;</p>
+                                <p><a href="http://www.dhs.vic.gov.au/for-individuals/children,-families-and-young-people">Child,families and young people protection by VIC government</p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /row of widgets -->
+                </div>
+            </div>
+            <div class="footer2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 widget">
+                            <div class="widget-body">
+                                <p class="simplenav">
+                                    <a href="index.aspx">Home</a>|
+                                    <a href="ourHis.aspx">About us</a>|
+                                    <a href="forum.aspx">Discuss</a>|
+                                    <a href="Contact.aspx">Contact</a>|
+
+                                    <b>
+                                        <a href="signup.aspx">Sign up</a>
+                                    </b>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 widget">
+                            <div class="widget-body">
+                                <p class="text-right">Copyright © 2014, Star Tech. Designed by 
+                                    <a href="ourhis.aspx" rel="designer">Cheligeer, Mihir, Yeni and Ren.</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /row of widgets -->
+                </div>
+            </div>
+        </footer>
+        <!-- JavaScript libs are placed at the end of the document so the pages
+        load faster -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+        <script src="assets/js/headroom.min.js"></script>
+        <script src="assets/js/jQuery.headroom.min.js"></script>
+        <script src="assets/js/template.js"></script>
+    
+
+    </form>
+</body>
+</html>
+
+       
+    
+
+
+        
